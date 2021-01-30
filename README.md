@@ -10,10 +10,10 @@ This is the project file for a DIY plc trainer.  The trainer combines the power 
 The scope of this trainer is to primarily provide the trainee with the essentials to get up and running with writing ladder logic programs for the plc.  Trainees will also be exposed to a range industry standard hardware and practices in process of building his own trainer.  However, some standards and practices are intentionally omitted for the purposes of minimizing cost and time investments during the building process (i.e omitting main & branch circuit breakers).
 
 Provided for this project are:
-- sample code for both plc and raspberry pi
+- source code for plc and raspberry pi
 - source code for HMI
-- electrical drawings and circuit schematics
-- demonstrative  media
+- electrical drawing
+- circuit schematic
 
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/plc.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/logicSwitch.JPG)

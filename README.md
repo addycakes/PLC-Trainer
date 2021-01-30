@@ -1,7 +1,7 @@
 # PLC-Trainer
 Click plc trainer with Raspberry Pi HMI
 
-![](/PLC-Trainer/media/trainerOpened.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/trainerOpened.JPG)
 
 Project Outline and Scope
 

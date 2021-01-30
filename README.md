@@ -15,4 +15,8 @@ Provided for this project are:
 - electrical drawings and circuit schematics
 - demonstrative  media
 
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/plc.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/logicSwitch.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/terminalBlock.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/trainerClosed.JPG)
 

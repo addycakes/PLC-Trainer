@@ -15,7 +15,7 @@ Provided for this project are:
 - electrical drawing
 - circuit schematic
 
-![](https://github.com/addycakes/PLC-Trainer/blob/main/media/hmiPress34.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/hmiPress34.jpg)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/plc.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/logicSwitch.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/terminalBlock.JPG)

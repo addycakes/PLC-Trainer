@@ -18,74 +18,57 @@
                 if(isset($_POST['power'])) {
                         system("gpio mode 15 out");
                         system("gpio write 15 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 15 0");
                 }
                 if(isset($_POST['start'])) {
                         system("gpio mode 16 out");
                         system("gpio write 16 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 16 0");
                 }
                 if(isset($_POST['stop'])) {
                         system("gpio mode 1 out");
                         system("gpio write 1 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 1 0");
                 }
                 if(isset($_POST['ram'])) {
                         system("gpio mode 4 out");
                         system("gpio write 4 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 4 0");
                 }
                 if(isset($_POST['nest'])) {
                         system("gpio mode 5 out");
                         system("gpio write 5 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 5 0");
                 }
                 if(isset($_POST['drive'])) {
                         system("gpio mode 6 out");
                         system("gpio write 6 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 6 0");
                 }
                 if(isset($_POST['rCurtain'])) {
                         system("gpio mode 10 out");
                         system("gpio write 10 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 10 0");
                 }
                 if(isset($_POST['pCurtain'])) {
                         system("gpio mode 11 out");
                         system("gpio write 11 1");
-                        sleep(.25)
+                        sleep(.25);
                         system("gpio write 11 0");
                 }
             
-                echo fread($myfile,filesize("ascii.txt"));
+                $myfile = fopen("ascii.txt", "r") or die("error");
+                //echo fread($myfile,filesize("ascii.txt"));
                 fclose($myfile);
         ?>
-
-        <div>
-            <?php
-                //open up the contact file
-                $fp = fopen("ascii.txt", "r") or die("error");
-                //print a line at a time
-                while (!feof($fp)){
-                    $line = fgets($fp);
-                    print "$line <br />";
-                }
-                //close the file
-                fclose($fp);
-            ?>
-        </div>
-
-        <h1 style="color:orange;">
-                PLC OUTPUT
-        </h1>
-
+        
         <form method="post">
             <h2>Control</h2>
             <fieldset>
@@ -118,6 +101,31 @@
                                 value="Pack Curtain"/>
             </fieldset>
         </form>
+
+        <h2 style="color:black;">
+            Parts packed:
+            <?php
+                $myfile = fopen("ascii.txt", "r") or die("error");
+                echo fread($myfile,filesize("parts.txt"));
+                fclose($myfile);
+            ?>
+        </h2>
+
+<h4 style="color:orange;">
+        PLC Serial Readout
+    <?php
+        //open up the contact file
+        $fp = fopen("ascii.txt", "r") or die("error");
+        //print a line at a time
+        while (!feof($fp)){
+            $line = fgets($fp);
+            print "$line <br />";
+        }
+        //close the file
+        fclose($fp);
+    ?>
+</h4>
+
 </head>
 </html>
 </html>

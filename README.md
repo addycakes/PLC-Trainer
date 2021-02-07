@@ -18,6 +18,7 @@ Provided for this project are:
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/hmiPress34.jpg)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/plc.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/logicSwitch.JPG)
+![](https://github.com/addycakes/PLC-Trainer/blob/main/media/pcb.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/terminalBlock.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/trainerClosed.JPG)
 

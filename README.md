@@ -21,5 +21,3 @@ Provided for this project are:
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/pcb.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/terminalBlock.JPG)
 ![](https://github.com/addycakes/PLC-Trainer/blob/main/media/trainerClosed.JPG)
-![](https://github.com/addycakes/PLC-Trainer/blob/main/LogicSwitch/logicSwitch.pdf)
-
